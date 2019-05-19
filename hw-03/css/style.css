@@ -1,8 +1,9 @@
 .wrapper {
   width: 900px;
   margin: auto;
-  background-color: #eee;
-  padding-top: 32px;
+  /* background-color: #eee; */
+  padding-top: 50px;
+  padding-bottom: 70px;
 }
 .text {
   font-family: sans-serif;
@@ -11,32 +12,73 @@
 }
 .list {
   list-style: none;
-  margin-left: 150px;
+  text-align: center;
+  margin-left:  auto;
+  margin-right: auto;
 }
-.list-item{
-    display:inline-block;
+.list-item {
+  display: inline-block;
 }
-.list-link{
-    display: block;
-    width: 150px;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: sans-serif;
-    color:#444;
+.list-link {
+  display: block;
+  width: 150px;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #444;
 }
-.list-link:hover{
-    color: blue;
+.list-link:hover {
+  color: #03a9f4;
 }
-main{
-    font-size: 0%;
+main {
+  font-size: 0%;
+  /* pad/ding-top: 105px; */
+  padding-bottom: 60px;
 }
-.card{
-    font-size: 16px;
-    display: inline-block;
-    width: calc(50% - 30px);
+.card {
+  font-size: 16px;
+  display: inline-block;
+  width: calc(50% - 30px);
+  padding-top: 90px;
 }
-.card-mr{
-    margin-right: 60px;
+.card-mr {
+  margin-right: 60px;
+}
+.card-subtitle {
+  font-size: 14px;
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.card-title {
+  font-size: 30px;
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+}
+.card-description {
+  font-size: 14px;
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+}
 
+button{
+  margin-left: auto;
+  margin-right: auto;
 }
+.load-btn {
+  display: block;
+  background-color: transparent;
+  border-width: 1px;
+  border-color: rgb(98, 98, 98);
+  border-style: solid;
+  width: 162px;
+  height: 58px;
+
+  font-size: 20px;
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+}
+
